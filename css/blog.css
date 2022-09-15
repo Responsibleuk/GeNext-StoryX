@@ -1,0 +1,219 @@
+@import url(http://fonts.googleapis.com/css?family=Poiret+One&subset=latin,latin-ext,cyrillic);
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700);
+
+
+a.back {
+	position: fixed;
+	top:50px;
+	left:0;
+	-webkit-transition: all .35s ease-in-out;
+	-moz-transition: all .35s ease-in-out;
+	-ms-transition: all .35s ease-in-out;
+	-o-transition: all .35s ease-in-out;
+	transition: all .35s ease-in-out;
+	background: url(../images/arrow-left.png) no-repeat center center;
+	width: 50px;
+	height:50px;
+	z-index: 3900;
+	opacity:1;
+}
+
+a.back:hover {
+	opacity:0.8;
+}
+
+
+/* #Blog Post
+================================================== */
+
+#blog-post{ 
+    background:#4d4646;
+    position:relative;
+	padding-top:30px;
+	padding-bottom:100px;
+}
+#blog-post h3{
+	padding-top:20px;
+}
+#blog-post p{
+	text-align:justify;
+}
+#blog-post img{ 
+		width:100%; 
+		height: auto;
+		display:block;
+}
+.related img{ 
+		padding-bottom:20px;
+}
+.related img:hover{ 
+		opacity:.8;
+}
+.related h6{ 
+		padding-bottom:20px;
+}
+.moved-text{ 
+		padding-left:20px;
+		padding-right:20px;
+		padding-top:10px;
+		padding-bottom:10px;
+		margin-left:40px;
+		margin-top:20px;
+		margin-bottom:20px;
+		border-left:5px solid #FA6900;
+		background:rgba(0,0,0,.2);
+}
+
+.left{ 
+	text-align:left; 
+	padding-top:10px;
+	height:24px;
+}
+.list-social li {
+    padding:0 4px 4px 0; 
+    list-style: none; 
+    margin:0 auto; 
+    text-align: center; 
+    display: inline-block;
+}
+
+.list-social li.icon-soc a {
+	font-family: 'FontAwesome';
+	font-size: 22px;
+	line-height: 22px;
+	color: #FA6900; 
+	-webkit-transition : all 0.4s ease-out;
+	-moz-transition : all 0.4s ease-out;
+	-o-transition :all 0.4s ease-out;
+	transition : all 0.4s ease-out;  
+}
+.list-social li.icon-soc a:hover {
+	font-size: 28px;
+}
+.share{
+    position:relative; 
+	background:rgba(0,0,0,.2);
+	padding-bottom:20px;
+	width:100%;
+}
+.share-text{
+    position:relative; 
+	display:inline-block;
+	height:50px;
+	line-height:50px;
+	padding-right:10px;
+	padding-left:20px;
+	text-align:left;
+}
+.share-icon{
+    position:relative; 
+	display:inline-block;
+}
+.share-date{
+    position:relative; 
+	display:inline-block;
+	float:right;
+	padding-right:20px;
+	height:50px;
+	line-height:50px;
+}
+
+.coment{ 
+    position:relative; 
+	background:rgba(0,0,0,.2);
+}
+.coment-text{ 
+	padding-left:20px;
+	padding-right:20px;
+	padding-top:10px;
+	padding-bottom:10px;
+}
+.coment img{
+    float:left;
+}
+/* #Media Queries
+================================================== */
+
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+}
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+}
+
+@media only screen and (min-width: 320px) and (max-width: 479px) {
+}
+
+@media only screen and (max-width: 319px) {
+h1 { font-size: 46px; line-height: 50px;}
+}
+
+
+
+
+/* #Font-Face
+================================================== */
+
+@font-face {
+  font-family: 'FontAwesome';
+  src: url('font/fontawesome-webfont.eot?v=3.0.1');
+  src: url('font/fontawesome-webfont.eot?#iefix&v=3.0.1') format('embedded-opentype'),
+    url('font/fontawesome-webfont.woff?v=3.0.1') format('woff'),
+    url('font/fontawesome-webfont.ttf?v=3.0.1') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+    font-family: 'OpenSans-Light-webfont';
+    src: url('font/OpenSans-Light-webfont.eot');
+    src: url('font/OpenSans-Light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('font/OpenSans-Light-webfont.woff') format('woff'),
+         url('font/OpenSans-Light-webfont.ttf') format('truetype'),
+         url('font/OpenSans-Light-webfont.svg#BebasNeueRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'OpenSans-Bold-webfont';
+    src: url('font/OpenSans-Bold-webfont.eot');
+    src: url('font/OpenSans-Bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('font/OpenSans-Bold-webfont.woff') format('woff'),
+         url('font/OpenSans-Bold-webfont.ttf') format('truetype'),
+         url('font/OpenSans-Bold-webfont.svg#BebasNeueRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'OpenSans-Regular-webfont';
+    src: url('font/OpenSans-Regular-webfont.eot');
+    src: url('font/OpenSans-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('font/OpenSans-Regular-webfont.woff') format('woff'),
+         url('font/OpenSans-Regular-webfont.ttf') format('truetype'),
+         url('font/OpenSans-Regular-webfont.svg#BebasNeueRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'BebasNeueRegular';
+    src: url('font/BebasNeue-webfont.eot');
+    src: url('font/BebasNeue-webfont.eot?#iefix') format('embedded-opentype'),
+         url('font/BebasNeue-webfont.woff') format('woff'),
+         url('font/BebasNeue-webfont.ttf') format('truetype'),
+         url('font/BebasNeue-webfont.svg#BebasNeueRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+	font-family: 'entypo';
+	src:url('font/entypo.eot');
+	src:url('font/entypo.eot?#iefix') format('embedded-opentype'),
+		url('font/entypo.svg#entypo') format('svg'),
+		url('font/entypo.woff') format('woff'),
+		url('font/entypo.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
